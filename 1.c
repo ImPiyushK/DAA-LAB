@@ -1,5 +1,11 @@
 #include<stdio.h>
 
+int binary_search(int ar[], int n, int x)
+{
+    int i;
+
+}
+
 int linear_search(int ar[], int n, int x)
 {
     int i;
@@ -35,7 +41,8 @@ int main()
         printf("Enter a number to be searched: ");
         scanf("%d",&x);
 
-        freq = linear_search(ar, n, x);
+        #freq = linear_search(ar, n, x);
+        freq = binary_search(ar, n, x);
         if(freq != 0)
             printf("%d",freq);
         else
