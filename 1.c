@@ -1,5 +1,19 @@
 #include<stdio.h>
 
+int linear_search(int ar[], int n, int x)
+{
+    int i;
+    int c = 0;
+    for(i = 0 ; i < n ; i++)
+    {
+        if(ar[i] == x)
+        {
+            c++;
+        }
+    }
+    return c;
+}
+
 int main()
 {
     int n, t;
@@ -21,8 +35,11 @@ int main()
         printf("Enter a number to be searched: ");
         scanf("%d",&x);
 
-        freq = linear_search(ar, n, )
-
+        freq = linear_search(ar, n, x);
+        if(freq != 0)
+            printf("%d",freq);
+        else
+            printf("Key Not Present");
         t--;
     }
 }
