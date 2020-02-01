@@ -15,5 +15,6 @@ The output will have T number of lines.
 For each test case T, output will be the key element and its number of copies in
 the array if the
 key element is present in the array otherwise print “ Key not present”.
+(https://www.geeksforgeeks.org/count-number-of-occurrences-or-frequency-in-a-sorted-array/)
 
 2:- 
