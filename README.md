@@ -1,7 +1,7 @@
 # DAA-LAB 
 
 1:- Given a sorted array of positive integers containing few duplicate elements, design an algorithm and implement it using a program to find whether the given key element is present in the array or not. If present, then also find the number of copies of given key. 
-(Time Complexity = O(log n))
+(Time Complexity = O(log n)) 
 
 Input format:
 The first line contains number of test cases, T.
